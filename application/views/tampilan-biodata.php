@@ -37,17 +37,11 @@
             color: blue;
             margin-right: 5px;
         }
-        .container img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Data Biodata</h2>
+        <h2>Data Mahasiswa</h2>
         <p><strong>Nama :</strong> <?php echo $nama; ?></p>
         <p><strong>Alamat :</strong> <?php echo $alamat; ?></p>
         <p><strong>No.HP :</strong> <?php echo $nohp; ?></p>

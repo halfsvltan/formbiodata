@@ -62,7 +62,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Form Biodata</h2>
+        <h2>Form Biodata Mahasiswa</h2>
         <form action="<?php echo base_url('biodata/tampil'); ?>" method="POST">
             <label for="nama">Nama :</label>
             <input type="text" id="nama" name="nama" required>
